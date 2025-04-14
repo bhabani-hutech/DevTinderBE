@@ -24,7 +24,7 @@ app.use("/", (req, res) => {
   res.send("Hello from dashboard");
 });
 
-// order of routing matters a lot
+//order of the routes matters a lot
 app.listen(7000, () => {
   console.log("server started successfully");
 });
